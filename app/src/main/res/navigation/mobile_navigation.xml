@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.kisilerapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_colleagues"
+        android:name="com.example.kisilerapp.ui.colleagues.ColleaguesFragment"
+        android:label="@string/menu_colleagues"
+        tools:layout="@layout/fragment_colleagues" />
+
+    <fragment
+        android:id="@+id/nav_friends"
+        android:name="com.example.kisilerapp.ui.friends.FriendsFragment"
+        android:label="@string/menu_friends"
+        tools:layout="@layout/fragment_friends" />
+
+    <fragment
+        android:id="@+id/nav_family"
+        android:name="com.example.kisilerapp.ui.family.FamilyFragment"
+        android:label="@string/menu_family"
+        tools:layout="@layout/fragment_family" />
+
+    <fragment
+        android:id="@+id/nav_school"
+        android:name="com.example.kisilerapp.ui.school.SchoolFragment"
+        android:label="@string/menu_school"
+        tools:layout="@layout/fragment_school" />
+</navigation>

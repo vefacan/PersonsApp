@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_colleagues"
+            android:icon="@drawable/colleague_icon"
+            android:title="@string/menu_colleagues" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/friends_icon"
+            android:title="@string/menu_friends" />
+        <item
+            android:id="@+id/nav_family"
+            android:icon="@drawable/family_icon"
+            android:title="@string/menu_family" />
+        <item
+            android:id="@+id/nav_school"
+            android:icon="@drawable/school_icon"
+            android:title="@string/menu_school" />
+    </group>
+</menu>
