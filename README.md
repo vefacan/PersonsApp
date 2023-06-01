@@ -21,9 +21,10 @@ This is the 8rd homework I prepared in my "Turkcell - Geleceği Yazanlar" course
 # Libraries and Versions
   
  Room <p>
-implementation "androidx.room:room-runtime:2.2.4"
-kapt "androidx.room:room-compiler:2.2.4"
-implementation "androidx.room:room-ktx:2.2.5"
+   
+implementation "androidx.room:room-runtime:2.2.4"<p>
+kapt "androidx.room:room-compiler:2.2.4"<p>
+implementation "androidx.room:room-ktx:2.2.5"<p>
    
    
 # Images from the Project
