@@ -27,7 +27,7 @@ kapt "androidx.room:room-compiler:2.2.4"<p>
 implementation "androidx.room:room-ktx:2.2.5"<p>
    
    
-# Images from the Project
+# Images and Videos from the Project
    
    
 <a href="https://github.com/vefacanbeytorun/PersonsApp/blob/master/images/1.png" target="_blank">
