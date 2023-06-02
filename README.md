@@ -16,7 +16,7 @@ This is the 8rd homework I prepared in my "Turkcell - Geleceği Yazanlar" course
 |  Colleagues Page    |
 |  Friends Page       |
 |  Schools Page        |
-|  Familty Page        |
+|  Family Page        |
   
 # Libraries and Versions
   
